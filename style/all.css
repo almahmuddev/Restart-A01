@@ -1,0 +1,32 @@
+
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+p{
+    color: rgba(58, 59, 59, 0.966);
+    font-weight: 500;
+}
+
+/* @media screen and (min-width: 768px) {
+    body {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+} */
+
+
+/*  Padding is for all section */
+@media screen and (min-width: 768px) {
+    header, .banner, .choose {
+        padding: 0 10rem;
+    }
+}
