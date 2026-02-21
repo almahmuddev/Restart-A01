@@ -51,18 +51,14 @@ function displayProducts(products) {
   });
 }
 
-
-
-
-
 const filterButtons = document.querySelectorAll(".filter-btn");
 
 // add click to each button
 filterButtons.forEach(btn => {
   btn.addEventListener("click", () => {
-    // remove active class from all buttons
+    // removing active class
     filterButtons.forEach(b => b.classList.remove("active"));
-    // add active class to clicked button
+    // adding active class
     btn.classList.add("active");
 
     const selectedCategory = btn.dataset.category;
@@ -74,11 +70,7 @@ filterButtons.forEach(btn => {
       filteredProducts = allProducts.filter(p => p.category === selectedCategory);
     }
 
-    // display filtered products
+    // show filtered products
     displayProducts(filteredProducts);
   });
 });
-
-
-
-

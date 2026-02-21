@@ -58,22 +58,23 @@ header {
 }
 
 .menu-btn {
-    display: none; 
+    display: none;
     font-size: 1.85rem;
     cursor: pointer;
     color: #3a3737;
 }
 
 @media screen and (max-width: 576px) {
-    header{
+    header {
         height: 2.75rem;
     }
+
     .nav-menu {
         display: none;
     }
 
     .menu-btn {
-        display: block; 
+        display: block;
     }
 
     .logo h3 {
@@ -81,7 +82,7 @@ header {
     }
 
     .cart-icon a img {
-        width: 40px; 
+        width: 40px;
         height: 40px;
     }
 }
@@ -224,13 +225,15 @@ header {
         grid-template-columns: repeat(1, 1fr);
         gap: 3.25rem;
     }
+
     .choose-card {
         padding: 2.5rem 1rem 2rem;
     }
+
     .icon-box {
         left: 16px;
     }
-    
+
 }
 
 
@@ -248,12 +251,13 @@ header {
     gap: 1.5rem;
     /* padding:  1.25rem; */
 }
+
 @media screen and (max-width: 576px) {
     .trending-container {
         grid-template-columns: repeat(1, 1fr);
         padding: 0;
     }
-    
+
 }
 
 .product-card {
@@ -267,20 +271,22 @@ header {
 }
 
 .product-card:hover {
-    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
     transform: translateY(-4px);
 }
 
-.product-image-container, .product-img-box {
+.product-image-container,
+.product-img-box {
     background-color: #c3daef;
-    height: 200px; 
-    display: flex; 
+    height: 200px;
+    display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     padding: 20px;
 }
 
-.product-image-container img, .product-img-box img {
+.product-image-container img,
+.product-img-box img {
     height: 190px;
     object-fit: contain;
 }
@@ -309,8 +315,9 @@ header {
     font-weight: 700;
     text-transform: capitalize;
 }
+
 /*  this class are set  by...  I dont know  dev tool says */
-.rating {  
+.rating {
     color: #000000ab;
     font-weight: 600;
 }
@@ -324,11 +331,12 @@ header {
     color: #000000e5;
     font-size: 1.15rem;
     font-weight: 700;
-    margin-top: 0; 
+    margin-top: 0;
     margin-bottom: 15px;
 }
 
-.card-buttons, .button-group {
+.card-buttons,
+.button-group {
     display: flex;
     justify-content: space-between;
     gap: 12px;
@@ -371,6 +379,34 @@ header {
     box-shadow: 0 8px 18px rgba(68, 76, 247, 0.35);
 }
 
+
+
+
+/* Question section CSS start */
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-container {
+    padding: 2rem 0 0 0;
+}
+
+.question {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000000c7;
+}
+
+.answer {
+    text-align: center;
+    font-size: .97rem;
+    color: rgba(58, 59, 59, 0.966);
+    padding: .5rem 0;
+}
 
 
 
@@ -507,18 +543,22 @@ header {
 /* responsiveness for mobile device */
 
 @media screen and (max-width: 576px) {
-    .footer{
+    .footer {
         padding: 2rem 1rem;
     }
-    .footer-container{
+
+    .footer-container {
         display: grid;
     }
+
     .subscribe-form {
         display: grid;
     }
-    .footer-bottom{
+
+    .footer-bottom {
         display: grid;
     }
+
     .social-icons {
         order: -1;
     }

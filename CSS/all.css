@@ -22,13 +22,13 @@ p{
 }
 
 @media screen and (min-width: 768px) {
-    header, .banner, .choose, .trending {
+    header, .banner, .choose, .trending, .questions {
         padding: 1.75rem 10rem;
     }
 }
 
 @media screen and (max-width: 576px) {
-    header, .banner, .choose, .trending {
+    header, .banner, .choose, .trending, .questions {
         padding: 1.25rem 1rem;
     }
     body{
